@@ -1,0 +1,73 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+ 
+manually commit: 
+Pros : 
+
+ - You will have control over all your changes 
+
+ - You will know why you are doing the commit 
+
+ - You have the option to decide when to do it 
+
+- each commit will have one purpose that can be easily understood. 
+
+- allows you to write a short message explaining what was changed in each commit, and that message will be more useful
+ if each commit has a single logical change. 
+
+Cons: 
+
+- Could be too big to do it 
+
+- You could forget to commit a change and the electricity is down 
+
+-Forgetting what you were doing.
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because you can/could be related and would be easy to compare and see the diff between the two.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+   To inspect and compare.
+git log                     # show the commit history for the currently active branch
+git log branch B..branchA   #show the commits on branchA that are not on branchB
+git log --follow [file]     #show the commits that changed ?le, even across renames
+git diff branchB...branchA  # show the di? of what is in branchA that is not in branchB
+git diff 		    # di? of what is changed but not staged
+git diff --staged           # di? of what is staged but not yet committed
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+?
+    
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I really dont know because I had a hard time with it, but if I didn't have a hard time i guess i would use
+it for:
+- my  portfolio 
+
+- my projects 
+
+
+   
